@@ -42,8 +42,8 @@ print 'Refining search'
 ## Log in for access to full articles
 
 login = browser.find_element_by_link_text("Sign In").click()
-loginID = browser.find_element_by_id("username").send_keys('yosefvb@gmail.com')     # Input username
-loginPass = browser.find_element_by_id("password").send_keys('yvb123')              # Input password
+loginID = browser.find_element_by_id("username").send_keys('#######')     # Input username
+loginPass = browser.find_element_by_id("password").send_keys('#######')   # Input password
 loginReady = browser.find_element_by_class_name("login_submit")
 loginReady.submit()
 print 'login successful'
